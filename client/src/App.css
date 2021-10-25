@@ -1,0 +1,82 @@
+@import"~bootstrap/dist/css/bootstrap.css";
+ 
+.singleitem{
+  text-align: center;
+  display: inline-block;
+  width:25%; 
+   padding:1.5vw;
+  background-size: inherit;
+}
+.bgimg{
+  min-width:85%;
+  max-width: 100%;
+  max-height: 27vh;
+  float:right;
+
+}
+.btn-primary {
+  color:black;
+  background-color: #847979;
+  border-color: #feffff;
+  width:70%;
+  margin-left: 15%;
+}
+.btn-primary:hover{
+  color:black;
+  background-color:#726a6a;
+  border-color: #feffff;
+
+}
+.btn-primary:focus{
+  color:black;
+  background-color:#726a6a;
+  border-color: #feffff;
+  box-shadow:0.001px 0.001px 0.001px 0.001px palevioletred;
+
+}
+.btn:active{
+  color:black;
+  background-color:#726a6a;
+  transition: 40s;
+}
+.form-control{
+  background-color: #e5d8d8;
+}
+.form-control:hover{
+  color:black;
+  background-color: #e5d8d8;
+  border-color: #feffff;
+
+}
+.form-control:focus{
+  color:black;
+  background-color: #e5d8d8;
+  border-color: #feffff;
+  box-shadow:0.001px 0.001px 0.001px 0.001px palevioletred;
+
+}
+.form-control:active{
+  color:black;
+  background-color: #e5d8d8;
+  transition: 40s;
+}
+.card{
+  background-color: #e5d8d8;
+  width:100%;
+  padding:3vh;
+
+}
+.cards{
+  display: inline-block;
+   padding-left: 20%;
+   padding-right: 20%;
+ 
+}
+.card-img-top{
+  width: 100%;
+  height:24vh;
+
+}
+.card-body{
+  padding-left: 10%;
+}
